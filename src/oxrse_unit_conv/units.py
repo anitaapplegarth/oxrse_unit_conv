@@ -12,7 +12,9 @@ h = hour
 kilometer = Unit(name='kilometer', abbr="km", si=meter, to_si_fun=lambda n: n * 1000)
 km = kilometer
 
+# mile calculator
 mile = Unit(name='mile', abbr='mile', si=meter, to_si_fun=lambda n: n * 1_609.344)
+mile = mile
 
 # meter_sq
 
