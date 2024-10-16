@@ -17,6 +17,8 @@ mile = Unit(name='mile', abbr='mile', si=meter, to_si_fun=lambda n: n * 1_609.34
 mile = mile
 
 # meter_sq
+meter_sq = Unit(name='meter_sq', abbr="km_sq", si=meter, to_si_fun=lambda n: n ** 2)
+km_sq = meter_sq
 
 # meter_cu
 
